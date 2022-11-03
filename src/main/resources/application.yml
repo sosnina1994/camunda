@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/deposit
+    username: root
+    password: root
+
+camunda:
+  bpm:
+    admin-user:
+      id: admin
+      first-name: Camunda
+      last-name: Admin
+      password: admin
+    auto-deployment-enabled: false
+    default-number-of-retries: 1
+    enabled: true
+    webapp:
+      index-redirect-enabled: false
+
